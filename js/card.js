@@ -1,6 +1,19 @@
 var card = 0;
 list = [];
 
+function getColor(str) {
+	if (str == 'cardio') {
+		return '#E18700';
+	} else if (str == 'leg') {
+		return '#00A215';
+	} else if (str == 'chest') {
+		return '#BD00AC';
+	} else if (str == 'arm') {
+		return '#F10000';
+	} else {
+		return '#0040BA';
+	}
+}
 firebase
 	.database()
 	.ref('/cards')
@@ -16,7 +29,12 @@ function getCard() {
 
 	if (list.length > 0) {
 		for (i = 0; i < 5; i++) {
-			meep[i].setAttribute('src', 'assets/' + list[card][i] + '.svg');
+			var cardStr = list[card][i];
+			meep[i].setAttribute('src', 'assets/' + cardStr + '.svg');
+			meep[i].parentElement.setAttribute(
+				'style',
+				'background: ' + getColor(cardStr) + ';'
+			);
 		}
 	} else {
 		firebase
@@ -27,7 +45,16 @@ function getCard() {
 				var val = snapshot.val();
 
 				for (i = 0; i < 5; i++) {
-					meep[i].setAttribute('src', 'assets/' + val[i] + '.svg');
+					var cardStr = val[i];
+
+					meep[i].setAttribute('src', 'assets/' + cardStr + '.svg');
+					meep[i].parentElement.setAttribute(
+						'style',
+						'background: ' + getColor(cardStr) + ';'
+					);
+
+					var test = 'background: ' + getColor(cardStr) + ';';
+					console.log(test);
 				}
 			});
 	}

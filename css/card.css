@@ -18,10 +18,11 @@ body {
 }
 
 .body-container {
-	flex: 13;
-	border: 1px solid #f80000;
+	flex: 11;
 	background: #f80000;
 	margin: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
 	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
@@ -40,6 +41,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	border-bottom: 8px solid white;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 .main-frame-img {
@@ -70,6 +73,11 @@ body {
 
 .footer-3 {
 	border-right: 8px solid white;
+	border-bottom-left-radius: 25px;
+}
+
+.footer-4 {
+	border-bottom-right-radius: 25px;
 }
 
 box-image {
