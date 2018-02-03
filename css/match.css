@@ -196,7 +196,7 @@ i {
 
 @keyframes drop {
     0% {
-        transform: translateY(-50px);
+        transform: translateY(-100px);
     } 100% {
         transform: translateY(0);
     }

@@ -98,35 +98,3 @@ box-image {
 	width: 270px;
 	height: 270px;
 }
-
-.fade-in {
-    animation: fadeIn .75s ease-in-out;
-    -moz-animation: fadeIn .75s ease-in-out;
-    -ms-animation: fadeIn .75s ease-in-out;
-    -o-animation: fadeIn .75s ease-in-out;
-    -webkit-animation: fadeIn .75s ease-in-out;
-}
-
-.fade-out {
-    animation: fadeOut 0.75s ease-in-out;
-    -moz-animation: fadeOut 0.75s ease-in-out;
-    -ms-animation: fadeOut 0.75s ease-in-out;
-    -o-animation: fadeOut 0.75s ease-in-out;
-    -webkit-animation: fadeOut 0.75s ease-in-out;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    } 100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    } 100% {
-        opacity: 0;
-    }
-}
