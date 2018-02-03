@@ -86,3 +86,8 @@ nextCard();
 nextCard();
 getCard();
 console.log('hi');
+
+document.querySelector('.body-container').addEventListener('click', function() {
+	console.log('hi');
+	window.location = 'description.html';
+});
