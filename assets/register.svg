@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="445 0 375 667">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-iPhone_6_7_8_2);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-4, .cls-6 {
+        fill: rgba(255,255,255,0.87);
+      }
+
+      .cls-4 {
+        font-size: 14px;
+      }
+
+      .cls-11, .cls-4, .cls-6, .cls-7 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-5 {
+        fill: rgba(255,255,255,0.38);
+      }
+
+      .cls-12, .cls-5 {
+        font-size: 12px;
+      }
+
+      .cls-12, .cls-5, .cls-9 {
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-11, .cls-6 {
+        font-size: 13px;
+      }
+
+      .cls-7 {
+        fill: rgba(0,0,0,0.38);
+        font-size: 1px;
+      }
+
+      .cls-11, .cls-13, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        stroke: #707070;
+      }
+
+      .cls-9 {
+        fill: #961010;
+        font-size: 20px;
+      }
+
+      .cls-13, .cls-9 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-10 {
+        fill: #b39ddb;
+      }
+
+      .cls-12 {
+        fill: rgba(255,255,255,0.5);
+      }
+
+      .cls-13 {
+        font-size: 25px;
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-14 {
+        stroke: none;
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f71f1f"/>
+      <stop offset="1" stop-color="#961010" stop-opacity="0.969"/>
+      <stop offset="1" stop-color="#630808"/>
+    </linearGradient>
+    <clipPath id="clip-iPhone_6_7_8_2">
+      <rect x="445" width="375" height="667"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_6_7_8_2" data-name="iPhone 6/7/8 – 2" class="cls-1">
+    <rect class="cls-15" x="445" width="375" height="667"/>
+    <g id="Text_Field" data-name="Text Field" transform="translate(498 98)">
+      <rect id="Bounds" class="cls-2" width="270" height="72.616" transform="translate(0 0)"/>
+      <path id="Divider" class="cls-3" d="M148.7,110h270" transform="translate(-148.7 -49.487)"/>
+      <text id="John" class="cls-4" transform="translate(0.377 46.282)"><tspan x="0" y="0">John</tspan></text>
+      <text id="First_Name" data-name="First Name" class="cls-5" transform="translate(0.377 18.077)"><tspan x="0" y="0">First Name</tspan></text>
+    </g>
+    <g id="Text_Field-2" data-name="Text Field" transform="translate(498 186.752)">
+      <rect id="Bounds-2" data-name="Bounds" class="cls-2" width="270" height="72.616" transform="translate(0 0)"/>
+      <path id="Divider-2" data-name="Divider" class="cls-3" d="M148.7,110h270" transform="translate(-148.7 -49.487)"/>
+      <text id="Wheeler" class="cls-6" transform="translate(0.377 45.282)"><tspan x="0" y="0">Wheeler</tspan></text>
+      <text id="Last_Name" data-name="Last Name" class="cls-5" transform="translate(0.377 18.077)"><tspan x="0" y="0">Last Name</tspan></text>
+    </g>
+    <g id="Text_Field-3" data-name="Text Field" transform="translate(498 283.599)">
+      <text id="_13_50" data-name="13 / 50" class="cls-7" transform="translate(43.782 70.59)"><tspan x="0" y="0">13 / 50</tspan></text>
+      <rect id="Bounds-3" data-name="Bounds" class="cls-2" width="53.269" height="72.616" transform="translate(0 0)"/>
+      <path id="Divider-3" data-name="Divider" class="cls-3" d="M148.7,110h53.269" transform="translate(-148.7 -49.487)"/>
+      <text id="_21" data-name="21" class="cls-6" transform="translate(0.074 35.282)"><tspan x="0" y="0">21</tspan></text>
+      <text id="Age" class="cls-5" transform="translate(0.074 10.077)"><tspan x="0" y="0">Age</tspan></text>
+    </g>
+    <g id="Sign_In" data-name="Sign In" transform="translate(421.7 194)">
+      <g id="Rectangle_1" data-name="Rectangle 1" class="cls-8" transform="translate(103 349)">
+        <rect class="cls-14" width="218.3" height="36" rx="10"/>
+        <rect class="cls-2" x="0.5" y="0.5" width="217.3" height="35" rx="9.5"/>
+      </g>
+      <text id="CONTINUE" class="cls-9" transform="translate(210.922 374)"><tspan x="-49.435" y="0">CONTINUE</tspan></text>
+    </g>
+    <g id="Focus_Three_line_Text" data-name="Focus Three line Text" transform="translate(498 369.519)">
+      <rect id="Bounds-4" data-name="Bounds" class="cls-2" width="269.179" height="113.924"/>
+      <rect id="Divider-4" data-name="Divider" class="cls-10" width="269.179" height="1.899" transform="translate(0.821 105.38)"/>
+      <rect id="Type_Mark" data-name="Type Mark" class="cls-10" width="0.821" height="18.987" transform="translate(200.243 79.747)"/>
+      <text id="Are_you_ready_to_workout_I_know_I_am._I_can_bench_3_plates_and_I_love_cardio._Plus_I_love_to_motivate_people_spotting._HMU" data-name="Are you ready to workout? I know I am. 
+I can bench 3 plates and I love cardio. Plus
+I love to motivate people spotting. HMU" class="cls-11" transform="translate(0 48.076)"><tspan x="0" y="0">Are you ready to workout? I know I am. </tspan><tspan x="0" y="20">I can bench 3 plates and I love cardio. Plus</tspan><tspan x="0" y="40">I love to motivate people spotting. HMU</tspan></text>
+      <text id="Biography" class="cls-12" transform="translate(0 25.139)"><tspan x="0" y="0">Biography</tspan></text>
+    </g>
+    <text id="Profile_Setup" data-name="Profile Setup" class="cls-13" transform="translate(571 92)"><tspan x="-73.335" y="0">Profile Setup</tspan></text>
+    <g id="Text_Field-4" data-name="Text Field" transform="translate(591 283.599)">
+      <text id="_13_50-2" data-name="13 / 50" class="cls-7" transform="translate(43.782 70.59)"><tspan x="0" y="0">13 / 50</tspan></text>
+      <rect id="Bounds-5" data-name="Bounds" class="cls-2" width="53.269" height="72.616" transform="translate(0 0)"/>
+      <path id="Divider-5" data-name="Divider" class="cls-3" d="M148.7,110h53.269" transform="translate(-148.7 -49.487)"/>
+      <text id="_5_7" data-name="5&apos;7" class="cls-6" transform="translate(0.074 35.282)"><tspan x="0" y="0">5&apos;7</tspan></text>
+      <text id="Height" class="cls-5" transform="translate(0.074 10.077)"><tspan x="0" y="0">Height</tspan></text>
+    </g>
+  </g>
+</svg>
