@@ -76,7 +76,11 @@ noButton.addEventListener('click', function() {
 	nextCard();
 });
 
-function matched() {}
+var yesButton = document.querySelector('.icon2');
+
+yesButton.addEventListener('click', function() {
+	window.location = 'match.html';
+});
 
 nextCard();
 nextCard();
