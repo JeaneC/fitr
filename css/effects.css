@@ -1,0 +1,87 @@
+.fade-in {
+    animation: fadeIn .75s ease-in-out;
+    -moz-animation: fadeIn .75s ease-in-out;
+    -ms-animation: fadeIn .75s ease-in-out;
+    -o-animation: fadeIn .75s ease-in-out;
+    -webkit-animation: fadeIn .75s ease-in-out;
+}
+
+.fade-out {
+    animation: fadeOut 0.75s ease-in-out;
+    -moz-animation: fadeOut 0.75s ease-in-out;
+    -ms-animation: fadeOut 0.75s ease-in-out;
+    -o-animation: fadeOut 0.75s ease-in-out;
+    -webkit-animation: fadeOut 0.75s ease-in-out;
+}
+
+.roll-left {
+    animation: rollLeft 0.75s ease-in-out;
+    -moz-animation: rollLeft 0.75s ease-in-out;
+    -ms-animation: rollLeft 0.75s ease-in-out;
+    -o-animation: rollLeft 0.75s ease-in-out;
+    -webkit-animation: rollLeft 0.75s ease-in-out;
+}
+
+.roll-right {
+    animation: rollRight 0.75s ease-in-out;
+    -moz-animation: rollRight 0.75s ease-in-out;
+    -ms-animation: rollRight 0.75s ease-in-out;
+    -o-animation: rollRight 0.75s ease-in-out;
+    -webkit-animation: rollRight 0.75s ease-in-out;
+}
+
+.drop {
+    animation: drop 0.75s ease-in-out;
+    -moz-animation: drop 0.75s ease-in-out;
+    -ms-animation: drop 0.75s ease-in-out;
+    -o-animation: drop 0.75s ease-in-out;
+    -webkit-animation: drop 0.75s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rollLeft {
+    0% {
+        opacity: 0;
+        transform: rotate(-60deg);
+        left: -60px;
+    } 100% {
+        opacity: 1;
+        transform: rotate(-10deg);
+        left: 0;
+    }
+}
+
+@keyframes rollRight {
+    0% {
+        opacity: 0;
+        transform: rotate(60deg);
+        right: -60px;
+    } 100% {
+        opacity: 1;
+        transform: rotate(10deg);
+        right: 0;
+    }
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-100px);
+    } 100% {
+        transform: translateY(0);
+    }
+}
