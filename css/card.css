@@ -43,6 +43,7 @@ body {
 	border-bottom: 8px solid white;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
+	background: #e18700;
 }
 
 .main-frame-img {
@@ -65,15 +66,18 @@ body {
 .footer-1 {
 	border-right: 8px solid white;
 	border-bottom: 8px solid white;
+	background: #00a215;
 }
 
 .footer-2 {
 	border-bottom: 8px solid white;
+	background: #bd00ac;
 }
 
 .footer-3 {
 	border-right: 8px solid white;
 	border-bottom-left-radius: 25px;
+	background: #0040ba;
 }
 
 .footer-4 {
