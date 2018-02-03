@@ -1,0 +1,203 @@
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 28px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #heading {
+        height: 15vh;
+    }
+    
+    #heading h1 {
+        font-size: 40px;
+        height: 15vh;
+        line-height: 15vh;
+        vertical-align: middle;
+    }
+    
+    #match-icons {
+        height: 40vh;
+        margin: 10px;
+    }
+    
+    #match-buttons ul li:first-child {
+        margin-bottom: 10px;
+    }
+    
+    #match-buttons ul li {
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        line-height: 150px !important;
+        letter-spacing: 3px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+* {
+    background-color: #2B2B2B;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+#heading {
+    font-family: 'Clicker Script', cursive;
+    font-size: 60px;
+    letter-spacing: 8px;
+    height: 20vh;
+    vertical-align: middle;
+    line-height: 20vh;
+}
+
+#heading h1 {
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    animation: drop 0.5s ease-in-out;
+    -webkit-animation: drop 0.5s ease-in-out;
+    -moz-animation: drop 0.5s ease-in-out;
+    -o-animation: drop 0.5s ease-in-out;
+}
+
+#match-icons {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 40px;
+    height: 40vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.match-pref {
+    height: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.match-pref .img-container {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.match-pref .img-container img {
+    border: 10px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+    height: 50%;
+    top: 25%;
+    width: auto;
+}
+
+.match-pref .img-container:first-child img {
+    animation: rollLeft 0.75s ease-out;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+}
+
+.match-pref .img-container:last-child img {
+    animation: rollRight 0.75s ease-out;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+i {
+    padding-right: 20px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+#match-buttons {
+    width: 80%;
+    height: 29vh;
+    vertical-align: middle;
+}
+
+#match-buttons ul {
+    list-style: none;
+    font-family: 'Poiret One', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#match-buttons ul li:first-child {
+    margin-bottom: 10px;
+}
+
+#match-buttons ul li {
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    line-height: 150px;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#match-buttons ul li a {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+#match-buttons ul li a:hover, #match-buttons ul li a:hover i,  #match-buttons ul li a:focus, #match-buttons ul li a:focus i {
+    background: white;
+    color: darkslategray;
+}
+
+@keyframes rollLeft {
+    0% {
+        opacity: 0;
+        transform: rotate(-60deg);
+        left: -60px;
+    } 100% {
+        opacity: 1;
+        transform: rotate(-10deg);
+        left: 0;
+    }
+}
+
+@keyframes rollRight {
+    0% {
+        opacity: 0;
+        transform: rotate(60deg);
+        right: -60px;
+    } 100% {
+        opacity: 1;
+        transform: rotate(10deg);
+        right: 0;
+    }
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-50px);
+    } 100% {
+        transform: translateY(0);
+    }
+}
