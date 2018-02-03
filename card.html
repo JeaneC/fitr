@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>fitr</title>
+  <link rel="stylesheet" href="css/card.css" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+var config = {
+	apiKey: 'AIzaSyC5nsbdqWn4BgTL-lDxiGbNOLKmEBXGoAI',
+	authDomain: 'hackheal-bd9f0.firebaseapp.com',
+	databaseURL: 'https://hackheal-bd9f0.firebaseio.com',
+	projectId: 'hackheal-bd9f0',
+	storageBucket: 'hackheal-bd9f0.appspot.com',
+	messagingSenderId: '940404785257'
+};
+firebase.initializeApp(config);
+</script>
+</head>
+
+<body>
+  <div class="container">
+    <img class="navbar-image" src='assets/navbar.png'/>
+    <div class="body-container">
+      <div class="main-frame">
+        <img class="hold main-frame-img" src="assets/cardio.svg" id="0"/>
+      </div>
+      <div class="footer-frame">
+        <div class="box footer-1">
+          <img class="hold box-img" src="assets/chest.svg" id="1"/>
+        </div>
+        <div class="box footer-2">
+          <img class="hold box-img" src="assets/leg.svg" id="2"/>
+
+        </div>
+        <div class="box footer-3">
+          <img class="hold box-img" src="assets/back.svg" id="3"/>
+        </div>
+        <div class="box footer-4">
+          <img class="hold box-img" src="assets/arm.svg" id="4"/>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img class="icon" src="assets/xIcon.svg" id="no"/>
+      <img class="icon2" src="assets/yesIcon.svg" id="yes"/>
+    </div>
+    <script src="js/card.js"></script>
+</body>
+
+</html>
